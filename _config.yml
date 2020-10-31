@@ -7,13 +7,14 @@ facebook_appid:   # APP ID for like button, remove from /_includes/share.html if
 google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
 share:            false # Turn on twitter and facebook share buttons
 
-# ------------ CONFIGURABLE END ------------
-
 #theme: jekyll-theme-minimal
 links:
   - name:         Pages
     url:          /
     external:     false
+
+# ------------ CONFIGURABLE END ------------
+
 collections:
   pages:
     output: true
