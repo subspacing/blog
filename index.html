@@ -1,9 +1,9 @@
 ---
 ---
-<ul class="list-group">
+<ul>
   {% for post in site.posts %}
-  <li class="mv2">
-    <a href="{{ site.url }}{{ post.url }}" class="db pv1 link blue hover-mid-gray">
+  <li>
+    <a href="{{ site.url }}{{ post.url }}">
       <time class="fr silver ttu">{{ post.date | date_to_string }} </time>
       {{ post.title }}
     </a>
