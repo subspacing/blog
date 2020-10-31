@@ -11,3 +11,14 @@
   </li>
   {% endfor %}
 </ul>
+
+<ul class="list pa0">
+  {% for page in site.pages %}
+  <li class="mv2">
+    <a href="{{ site.url }}{{ "/blog/" }}{{ page.url }}" class="db pv1 link blue hover-mid-gray">
+      {{ page.title }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
