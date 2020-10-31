@@ -15,8 +15,3 @@ links:
     external:     false
 
 # ------------ CONFIGURABLE END ------------
-
-collections:
-  pages:
-    output: true
-    permalink: /page/:name
