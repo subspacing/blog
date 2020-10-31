@@ -8,3 +8,5 @@ google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
 share:            false # Turn on twitter and facebook share buttons
 
 # ------------ CONFIGURABLE END ------------
+
+theme: jekyll-theme-minimal
