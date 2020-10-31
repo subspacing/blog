@@ -17,3 +17,5 @@ links:
 # ------------ CONFIGURABLE END ------------
 
 permalink:        /pages/:title
+collections: 
+  - pages
