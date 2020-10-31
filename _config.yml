@@ -1,1 +1,6 @@
 title: "subspacing"
+links:
+  - name:         Posts
+    url:          /
+    external:     false
+permalink:        /posts/:title
