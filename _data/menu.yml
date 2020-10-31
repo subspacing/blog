@@ -3,7 +3,7 @@
 
 entries:
 
-  - title: thoughts
-    post_list: true
+  - title: pages
+    page_list: true
     url: false
     entries: false
