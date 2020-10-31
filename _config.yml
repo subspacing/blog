@@ -21,4 +21,4 @@ defaults:
 collections:
   pages:
     output: true
-    permalink: /:collection/:path/
+    permalink: /pages/:path
