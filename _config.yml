@@ -17,3 +17,8 @@ permalink:        /posts/:title
 defaults:
   - values:
       layout: "default"
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
