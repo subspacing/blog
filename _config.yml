@@ -1,4 +1,5 @@
 # ----------- CONFIGURABLE START -----------
+theme: no-style-please
 title:            "subspacing"
 description:      "words"
 url:              https://subspacing.github.io # Site url, without a slash at the end.
