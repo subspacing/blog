@@ -9,7 +9,7 @@ share:            false # Turn on twitter and facebook share buttons
 
 # ------------ CONFIGURABLE END ------------
 
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
 links:
   - name:         Pages
     url:          /
