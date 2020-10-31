@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+
+<head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>
-    
-      subspacingz
-    
+
+    subspacing
+
   </title>
 
   <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="subspacingz" />
@@ -15,44 +17,53 @@
   <link rel="shortcut icon" type="image/x-icon" href="/./logo.png" />
   <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" />
 </head>
+
 <body a="auto">
-    <main class="page-content" aria-label="Content">
-        <div class="w">
-            <header>
-  <h1>subspacingz</h1>
-  
-</header>
+  <main class="page-content" aria-label="Content">
+    <div class="w">
+      <header>
+        <h1>subspacing</h1>
 
-<ul>
-  
-    <li>
-    
-      thoughts
-    
-    </li>
+      </header>
 
-    
-      
-  <ul>
-    
-      <li>
-        2020-10-31 <a href="/jekyll/update/2020/10/31/welcome-to-jekyll.html">welcome to jekyll!</a>
-      </li>
-    
-  </ul>
-
-    
-
-            
       <ul>
-  
-</ul>
-    
-  
-</ul>
-        </div>
-    </main>
 
-    
-    </body>
+        <li>
+
+          thoughts
+
+        </li>
+
+
+
+        <ul>
+
+          <ul class="list pa0">
+            {% for post in site.posts %}
+            <li class="mv2">
+              <a href="{{ site.url }}{{ post.url }}" class="db pv1 link blue hover-mid-gray">
+                <time class="fr silver ttu">{{ post.date | date_to_string }} </time>
+                {{ post.title }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+
+        </ul>
+
+
+
+
+        <ul>
+
+        </ul>
+
+
+      </ul>
+    </div>
+  </main>
+
+
+</body>
+
 </html>
