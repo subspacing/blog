@@ -2,8 +2,7 @@
 <ul>
   {% for post in site.posts %}
   <li class="mv2">
-    <a href="{{ site.url }}{{ post.url }}" class="db pv1 link blue hover-mid-gray">
-      <time class="fr silver ttu">{{ post.date | date: site.theme_config.date_format }} </time>
+    <a href="{{ post.url | relative_url }}" class="db pv1 link blue hover-mid-gray">
       {{ post.title }}
     </a>
   </li>
