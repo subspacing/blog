@@ -14,9 +14,7 @@ links:
   - name:         Pages
     url:          /
     external:     false
-# ------------ CONFIGURABLE END ------------
-
-permalink:        /pages/:title
-defaults:
-  - values:
-      layout: "default"
+collections:
+  pages:
+    output: true
+    permalink: /page/:name
