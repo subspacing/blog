@@ -11,14 +11,13 @@ links:
   - name:         Posts
     url:          /blog
     external:     false
+  - name:         Pages
+    url:          /blog
+    external:     false
 # ------------ CONFIGURABLE END ------------
 
-permalink:        /posts/:title
+permalink:       /pages/:path
 defaults:
   - values:
       layout: "default"
 
-collections:
-  pages:
-    output: true
-    permalink: /pages/:path
