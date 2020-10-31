@@ -10,6 +10,13 @@ share:            false # Turn on twitter and facebook share buttons
 # ------------ CONFIGURABLE END ------------
 
 theme: jekyll-theme-minimal
-collections:
-  pages:
-    output = true
+links:
+  - name:         Pages
+    url:          /
+    external:     false
+# ------------ CONFIGURABLE END ------------
+
+permalink:        /pages/:title
+defaults:
+  - values:
+      layout: "default"
